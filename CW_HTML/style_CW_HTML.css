@@ -199,12 +199,11 @@ ul a img{
     padding: 80px 95px;
 
 }
-.articles-header {
+.articles-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-
 }
 .articles-header h2{
     color: #2B2C34;
@@ -226,8 +225,6 @@ ul a img{
     width: 1240px;
     grid-template-columns: 260px 260px 260px 260px;
     gap: 56px;
-
-
 }
 .article-card{
     height: 385px;
@@ -286,4 +283,25 @@ ul a img{
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
+}
+.button_more{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 95px 0 95px;
+    background: #FFFFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_more button{
+    padding: 20px 23px 19px 23px;
+    width: 165px;
+    border-radius: 8px;
+    background: #6246EA;
+    margin-bottom: 80px;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: none;
 }
